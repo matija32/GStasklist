@@ -1,0 +1,47 @@
+<menu 
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_commitToSpreadsheet_action"
+        android:title="@string/menu_commit"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_upload"
+        android:onClick="commitToSpreadsheet"
+        android:showAsAction="always|withText"/>
+    
+    <item android:id="@+id/menu_commitToSpreadsheet"
+        android:title="@string/menu_commit"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_upload"
+        android:onClick="commitToSpreadsheet"/>
+    
+    <item android:id="@+id/menu_addTask"
+        android:title="@string/addTaskMenu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_add"
+        android:showAsAction="always|withText"
+        android:onClick="addTask" />
+    
+	<item android:id="@+id/menu_refreshTasklist"
+        android:title="@string/refreshTasklistMenu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_menu_refresh"
+        android:onClick="reloadTasklist" />
+    
+   	<item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_manage"
+        android:onClick="configure"
+        android:showAsAction="never" />
+	
+	<item android:id="@+id/menu_how_to"
+        android:title="@string/menu_how_to"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_info_details"
+        android:onClick="showHowTo"
+        android:showAsAction="never" />
+	
+	
+    
+</menu>

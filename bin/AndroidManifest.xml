@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gstasklist"
+    android:versionCode="10"
+    android:versionName="1.4" >
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <meta-data android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
+        <activity
+            android:name=".GSSAct"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GSSDetails"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gstasklist.WKDetails"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TasklistConfiguration"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tasklist"
+            android:label="@string/title_activity_tasklist"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DefineColumns"
+            android:label="@string/title_activity_define_columns"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DefineTags"
+            android:label="@string/title_activity_define_tags"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AddTask"
+            android:label="@string/title_activity_add_task"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EditTask"
+            android:label="@string/title_activity_edit_task"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HowTo"
+            android:label="@string/title_activity_how_to"
+            android:screenOrientation="portrait" >
+        </activity>        
+    </application>
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+</manifest>

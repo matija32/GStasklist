@@ -1,0 +1,38 @@
+<ScrollView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	   	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	<LinearLayout 
+	    android:id="@+id/LinearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5pt"
+	        android:text="Setting up a Google spreadsheet"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	
+	        android:text="1. Create a Google spreadsheet &#x0a;&#x0a;2. In the first row, define column names for task description, deadline, status and comments [Tip: freeze the first row!] &#x0a;&#x0a;3. In the app settings, set it as the source in the GSTasklist settings and specify the column names" />
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5pt"
+	        android:text="Synchronizing with the spreadsheet"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Every time you add/edit/delete a task, the changes are only applied locally (you will see a small &apos;upload&apos; icon). &#x0a;&#x0a;&apos;Upload changes&apos; to apply the changes in made with the app to the Google spreadsheet. &#x0a;&#x0a;&apos;Reload tasklist&apos; to overwrite tasks in the app with the ones in the Google spreadsheet." />
+	</LinearLayout>
+</ScrollView>

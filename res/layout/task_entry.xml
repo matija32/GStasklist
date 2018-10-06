@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical"
+	 android:padding="3dp"
+	android:orientation="horizontal">
+	<LinearLayout android:orientation="vertical"
+	   	android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    > 
+	<ImageView android:id="@+id/commitImage" 
+	    android:src="@drawable/ic_menu_upload_small" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:contentDescription="Commit_image"
+	    android:visibility="gone" />
+	<TextView
+        android:id="@+id/labelCommitAction"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" >
+    </TextView>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="5dp" >
+	    
+	    <TextView
+	        android:id="@+id/labelTaskDeadline"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:text="10/10/2000"
+	        android:textAppearance="?android:attr/textAppearanceSmall" >
+	    </TextView>
+	    
+	    <TextView
+	        android:id="@+id/labelTaskDescription"
+	        android:layout_width="wrap_content"
+	        android:gravity="center_vertical"
+	        android:layout_height="wrap_content"
+	        android:text="A task that has a very very very very very very very very very very very very long description, and it's more than enough."
+	        android:textAppearance="?android:attr/textAppearanceMedium" >
+	    </TextView>
+	    
+
+	</LinearLayout>
+	 
+</LinearLayout>

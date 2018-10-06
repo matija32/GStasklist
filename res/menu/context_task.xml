@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/viewComments"
+      android:title="View comments"/>
+    
+    <item android:id="@+id/moveToNextStatus"
+      android:title="Promote to next stage"/>
+    
+    <item android:id="@+id/moveToPreviousStatus"
+      android:title="Demote to previous stage"/>
+
+	<item android:id="@+id/markAsDone"
+      android:title="Mark as 'Done'" />
+	
+    <item android:id="@+id/edit"
+      android:title="Edit"/>
+
+	<item android:id="@+id/delete"
+      android:title="Delete" />
+	
+</menu>

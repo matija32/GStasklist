@@ -1,0 +1,17 @@
+== System features ==
+- Displaying all the tasks from a spreadsheet
+	- [done] Coloring tasks according to their status
+	- [done] Showing only uncompleted tasks
+	- [obsolete] Showing only last X tasks
+	- [obsolete] Loading and showing X more tasks
+	- [done] Ordering tasks per column (sorting)
+- Editing a task
+	- Marking the task as done
+- Adding a task
+- [done] Setting the source of a tasklist
+	- Opening a source of a tasklist (discarded, not trivial because it would require additional XML parsing)
+	- [done] Setting the type of fields in a tasklist
+
+== Future ==
+- [done] one tab per one status, sliding from one to another like a kanban board
+	- user defining an enumeration, which statuses are allowed, other ones are treated as "other"
